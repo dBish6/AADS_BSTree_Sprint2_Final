@@ -59,7 +59,6 @@ public class CLI {
                     break;
                 case "4":
                     System.out.println(TEXT_YELLOW + "\n*Nodes in Order*" + TEXT_RESET);
-//                  // TODO: Need new line?
                     binaryTree.inorderTraversal();
                     break;
                 case "5":
@@ -90,7 +89,7 @@ public class CLI {
                     break;
                 default:
                     System.err.println("""
-                            ERROR: Please choose from the list from 1 to 10.
+                            ERROR: Please choose from the list from 1 to 9.
                              Proceed with you choice below..""");
             }
         }
